@@ -5,7 +5,7 @@ import { useState } from 'react';
 import ForgotPassword from '../components/ForgotPassword';
 import {useSelector, useDispatch } from 'react-redux'
 import OTP from '../components/OTP';
-import ChangePassword from '../components/changePassword';
+import ChangePassword from '../components/ChangePassword';
 const Login = () => {
     const [recoveryEmail, setRecoveryEmail]= useState("");
     const [mode, setMode] = useState("signup");
